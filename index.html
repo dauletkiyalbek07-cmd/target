@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Портфолио таргетолога — [DAULET]</title>
+  <meta name="description" content="Таргетолог: запуск и ведение рекламы в Instagram, Facebook, TikTok. Кейсы, услуги, отзывы и контакты." />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Портфолио таргетолога — [Ваше имя]" />
+  <meta property="og:description" content="Запускаю рекламу, которая приводит клиентов и продажи" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="https://example.com/cover.jpg" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0f172a; /* slate-900 */
+      --muted: #475569; /* slate-600 */
+      --line: #e2e8f0; /* slate-200 */
+      --accent: #111827; /* gray-900 */
+      --accent-contrast: #ffffff;
+      --card: #f8fafc; /* slate-50 */
+      --radius: 16px;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      --container: 1120px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    .container { width: 100%; max-width: var(--container); margin: 0 auto; padding: 0 20px; }
+    .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 20px; border-radius: 999px; background: var(--accent); color: var(--accent-contrast); font-weight: 600; letter-spacing: 0.01em; transition: transform .15s ease, box-shadow .15s ease, background .2s ease; box-shadow: 0 6px 18px rgba(0,0,0,.08); }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(0,0,0,.12); }
+    .btn.secondary { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+    header { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(1.2) blur(8px); background: rgba(255,255,255,.7); border-bottom: 1px solid var(--line); }
+    nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: 0.02em; }
+    .logo-mark { width: 28px; height: 28px; border-radius: 8px; background: var(--fg); }
+    .menu { display: flex; gap: 20px; align-items: center; }
+    .menu a { color: var(--muted); font-weight: 500; }
+    .hero { padding: 72px 0 48px; }
+    .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 36px; align-items: center; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 12px; color: var(--muted); }
+    h1 { font-size: clamp(32px, 5vw, 56px); line-height: 1.05; margin: 18px 0 16px; letter-spacing: -0.02em; }
+    .lead { font-size: clamp(16px, 2.5vw, 20px); color: var(--muted); max-width: 56ch; }
+    .hero-cta { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .portrait { aspect-ratio: 4/5; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); overflow: hidden; }
+    section { padding: 72px 0; border-top: 1px solid var(--line); }
+    h2 { font-size: clamp(24px, 3.2vw, 36px); margin: 0 0 20px; letter-spacing: -0.01em; }
+    .muted { color: var(--muted); }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
+    .kpi { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px; }
+    .kpi .card h3 { margin: 0 0 6px; font-size: 28px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .testimonial { display: grid; gap: 10px; }
+    footer { padding: 48px 0; border-top: 1px solid var(--line); color: var(--muted); }
+    .fine { font-size: 12px; color: var(--muted); }
+    /* Responsive */
+    @media (max-width: 960px) {
+      .hero-grid, .grid-2 { grid-template-columns: 1fr; }
+      .cards, .kpi { grid-template-columns: 1fr; }
+      nav .menu { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span>[DAULET] · Таргетолог</span>
+        </div>
+        <div class="menu">
+          <a href="#about">Обо мне</a>
+          <a href="#services">Услуги</a>
+          <a href="#cases">Кейсы</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contacts">Контакты</a>
+          <a class="btn" href="https://wa.me/00000000000?text=Здравствуйте!%20Хочу%20обсудить%20рекламу" target="_blank" rel="noopener">Связаться</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Таргет • Instagram • Facebook • TikTok</span>
+          <h1>Запускаю рекламу, которая приводит клиентов</h1>
+          <p class="lead">Я помогаю малому и среднему бизнесу привлекать лиды и продажи за счёт точной настройки, креативов и аналитики. Минимализм в дизайне, максимализм в результатах.</p>
+          <div class="hero-cta">
+            <a class="btn" href="https://wa.me/77773660028?text=Здравствуйте!%20Хочу%20рекламу" target="_blank" rel="noopener">Написать в WhatsApp</a>
+            <a class="btn secondary" href="#cases">Смотреть кейсы</a>
+          </div>
+        </div>
+        <div class="portrait">
+          <!-- Замените src на своё фото 1200x1500 -->
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop" alt="Портрет таргетолога" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <h2>Обо мне</h2>
+        <p class="muted" style="max-width:72ch">Я таргетолог с опытом работы <strong>[X лет]</strong>. Запускаю рекламные кампании в Instagram, Facebook и TikTok: от стратегии и настройки до креативов и аналитики. Работаю прозрачно — с цифрами, отчётами и гипотезами, которые приводят к росту.</p>
+        <div class="kpi">
+          <div class="card"><h3>164</h3><div class="muted">лида за 5 дней</div></div>
+          <div class="card"><h3>↓ $2.30</h3><div class="muted">стоимость лида (CPL)</div></div>
+          <div class="card"><h3>×4</h3><div class="muted">окупаемость рекламы (ROAS)</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="container">
+        <h2>Услуги</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Запуск и ведение рекламы</h3>
+            <p class="muted">Аудит, стратегия, настройка и оптимизация кампаний. Подбор аудиторий, креативов и целей, A/B‑тесты.</p>
+          </div>
+          <div class="card">
+            <h3>Воронки и лидогенерация</h3>
+            <p class="muted">Трафик на квизы, чат‑боты и формы. Настройка конверсий и сквозной аналитики.</p>
+          </div>
+          <div class="card">
+            <h3>Консультации и обучение</h3>
+            <p class="muted">Разбор рекламного кабинета, гипотезы, план оптимизаций на 4 недели.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASES -->
+    <section id="cases">
+      <div class="container">
+        <h2>Кейсы</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Образовательный проект</h3>
+            <p class="muted">Бюджет $398, срок 5 дней — получили 164 лида. Стоимость лида $2.43. Оптимизация креативов и быстрый ретаргет.</p>
+          </div>
+          <div class="card">
+            <h3>Интернет‑магазин одежды</h3>
+            <p class="muted">Снизили CPL с $5 до $2.3 за 10 дней за счёт look‑alike аудиторий и теста форматов Reels/Carousel.</p>
+          </div>
+          <div class="card">
+            <h3>Онлайн‑школа языков</h3>
+            <p class="muted">ROAS ×4: связка лид‑форма + ретаргет по вовлечённости, быстрые гипотезы раз в 72 часа.</p>
+          </div>
+          <div class="card">
+            <h3>Локальные услуги</h3>
+            <p class="muted">Запуск кампаний на заявки в WhatsApp. CTR вырос с 0.6% до 1.8% после переработки офферов.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews">
+      <div class="container">
+        <h2>Отзывы</h2>
+        <div class="grid-2">
+          <div class="card testimonial">
+            <p>«Благодаря рекламе получили клиентов за считанные дни. Чёткие отчёты и цифры — приятно работать.»</p>
+            <p class="fine">Айгуль · школа английского</p>
+          </div>
+          <div class="card testimonial">
+            <p>«Прозрачный подход и сильные креативы. Продажи выросли на 70%. Рекомендую!»</p>
+            <p class="fine">Арман · e‑commerce</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section id="contacts">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p class="muted">Готов обсудить ваш проект и предложить план на 2–3 быстрые гипотезы.</p>
+        <div class="hero-cta">
+          <a class="btn" href="https://wa.me/00000000000?text=Здравствуйте!%20Нужна%20настройка%20рекламы" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn secondary" href="https://t.me/username" target="_blank" rel="noopener">Telegram</a>
+          <a class="btn secondary" href="mailto:you@example.com">you@example.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="grid-2">
+        <div class="fine">© <span id="y"></span> [Ваше имя]. Таргетолог.</div>
+        <div class="fine" style="text-align:right">Instagram · Facebook · TikTok</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // текущий год
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // плавный скролл для якорей
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const id=a.getAttribute('href').slice(1);
+        const el=document.getElementById(id);
+        if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+      });
+    });
+  </script>
+
+  <!-- Schema.org Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "[Ваше имя]",
+    "jobTitle": "Таргетолог",
+    "url": "https://example.com",
+    "sameAs": [
+      "https://instagram.com/yourprofile",
+      "https://t.me/username"
+    ]
+  }
+  </script>
+</body>
+</html>
